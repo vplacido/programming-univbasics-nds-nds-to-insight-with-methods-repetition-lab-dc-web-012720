@@ -29,7 +29,10 @@ def list_of_directors(source)
   i = 0 
   arr = []
   while i < source.length do 
-    
+    arr << source[i][:name]
+    i += 1 
+  end 
+  arr
   
 end
 
